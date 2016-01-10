@@ -12,5 +12,7 @@ author:
   # twitter: 
   # disqus: darienmt
 
+google_analytics: 'UA-72221351-1'
+
 # Build settings
 markdown: kramdown
