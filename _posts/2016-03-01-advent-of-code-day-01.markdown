@@ -4,8 +4,9 @@ title:  "Advent of Code: Day 1"
 subtitle: "Not quite lisp"
 date:   2016-03-01 20:21:10
 categories: advent-of-code
+disqus_identifier: advent-of-code-day01
 ---
-# First puzzle
+# First puzzle 
 
 In the first puzzle, we need to find which floor Santa will end based on the instruction we received. The instruction consists of a string full of "(" and ")." An open parenthesis means Santa needs to go a floor up, and a closing parenthesis means he needs to go a floor down. Here are some examples in the puzzle text:
 

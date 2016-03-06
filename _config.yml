@@ -7,10 +7,10 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://darienmt.com" # the base hostname & protocol for your site
 
 author:
-  fullname: Darien Martinez Torres
+  fullname: Darien Martinez
   github: darienmt
   # twitter: 
-  # disqus: darienmt
+  disqus: darienmtcom
 
 google_analytics: 'UA-72221351-1'
 
