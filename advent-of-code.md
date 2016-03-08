@@ -24,7 +24,7 @@ In the future, my idea is to write the solution with other languages (Ex. [Cloju
         {% if post.categories contains 'advent-of-code' %}
             <li class="post-teaser">
                 <a href="{{ post.url | prepend: site.baseurl }}">
-                    <span class="post-teaser__title">{{ post.title }} - {{ post.subtitle }}</span>
+                    <span class="post-teaser__title">{{ post.title }}</span> - {{ post.subtitle }}
                     <span class="post-teaser__date">{{ post.date | date: "%d %B %Y" }}</span>
                 </a>
             </li>
