@@ -17,9 +17,10 @@ This set of puzzles varies in its complexity, but they are good to stretch your 
 
 In the future, my idea is to write the solution with other languages (Ex. [Clojure](https://clojure.org/), Javascript, [Go](https://golang.org/), [Elixir](http://elixir-lang.org/)) and try to compare the in order to understand better what type of problems a new language is more suitable to solve minimizing the amount of libraries needed for the solution and other useful aspects to know before going to production with one of them.
 
+# 2015 Puzzle solutions
+
 <ul class="list-posts">
-    {% assign empty_category = true %}
-    {% for post in site.posts %}
+    {% for post in site.posts reversed %}
         {% if post.categories contains 'advent-of-code' %}
             <li class="post-teaser">
                 <a href="{{ post.url | prepend: site.baseurl }}">
@@ -27,7 +28,6 @@ In the future, my idea is to write the solution with other languages (Ex. [Cloju
                     <span class="post-teaser__date">{{ post.date | date: "%d %B %Y" }}</span>
                 </a>
             </li>
-            {% assign empty_category = false %}
         {% endif %}
     {% endfor %}
 </ul>
