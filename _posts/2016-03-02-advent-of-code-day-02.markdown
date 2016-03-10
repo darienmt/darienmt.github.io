@@ -36,4 +36,4 @@ Here is the code:
 {% gist 12dc481208735f8f2e83 %}
 
 
-You can find this code along with my input and puzzle answers at [here](https://github.com/darienmt/advent-of-code/blob/master/scala/src/main/scala/Day02sc).
+You can find this code along with my input and puzzle answers at [here](https://github.com/darienmt/advent-of-code/blob/master/scala/src/main/scala/Day02.sc).
