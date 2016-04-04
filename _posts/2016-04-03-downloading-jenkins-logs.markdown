@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Downloading Jenkins Logs"
-subtitle: "a way to analize Jenkins logs offline"
+subtitle: "a way to analyze Jenkins logs offline"
 date:   2016-04-03 20:21:10
 categories: scala
 tags: scala,jenkins,http
