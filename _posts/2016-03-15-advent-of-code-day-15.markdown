@@ -16,10 +16,10 @@ Two ingredients:
 
 The score of a cookie with 44 spoons of I1 and 56 spoons of I2 could:
 
-- capacity: 40*-1 + 65*2 = 68
-- durability: 44*-2 + 56*3 = 80
-- flavor: 44*6 + 56*-2 = 152
-- texture: 44*3 + 56*-1 = 76
+- capacity: 40 \* -1 + 65 \* 2 = 68
+- durability: 44 \* -2 + 56 \* 3 = 80
+- flavor: 44 \* 6 + 56 \* -2 = 152
+- texture: 44 \* 3 + 56 \* -1 = 76
 
 Multiplying all the properties together we find the score: 68 * 80 * 152 * 76 = 62842880. In this case, none of the properties was negative. It is very important to check for negative and make zero the property's total sum not partial sums.
 
