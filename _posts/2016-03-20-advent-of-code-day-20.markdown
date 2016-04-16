@@ -24,12 +24,12 @@ The overall packages delivered to the first 4 houses are as follow:
 
 The puzzle solution is to find the lowest house number that gets as many packages as the puzzle input.
 
-In ordet to find the solution, we need to calculate how many packages a house n will receive. Based on the description, a number of packages a house n will receive is equal to the sum of all the unique factors of n multiplied by 10. For example, House 4 factors: 1, 2 and 4, number of packages = (1 + 2 + 4)*10 = 70. Here is the implementation:
+In order to find the solution, we need to calculate how many packages a house n will receive. Based on the description, a number of packages a house n will receive is equal to the sum of all the unique factors of n multiplied by 10. For example, House 4 factors: 1, 2 and 4, number of packages = (1 + 2 + 4)*10 = 70. Here is the implementation:
 
 {% gist ee0026b5ab0c67a82438300443fd4756 %}
 
 # Second puzzle
-The second puzzle adds a new rule: The postman should deliver packages to 50 houses max. Also, the number of packages delivered per house changes from 10 to 11. These are not big changes, we need to redefine the function to calculate the number of packages to take into account that only factors less than the number of house should be consider:
+The second puzzle adds a new rule: The postman should deliver packages to 50 houses max. Also, the number of packages delivered per house changes from 10 to 11. These are not big changes, we need to redefine the function to calculate the number of packages to take into account that only factors less than the number of house should be considered:
 
 {% gist 8a377cfaa946bd940d15533a90abb8a5 %}
 
