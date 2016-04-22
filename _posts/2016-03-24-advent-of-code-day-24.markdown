@@ -22,7 +22,7 @@ I was struggling with this problem for a while, and couldn't find an elegant sol
 {% gist c903932504e6d544a816617f43fbb8e8 %}
 
 # Second puzzle
-The second puzzle is the same, but we need to organize the packages in four groups instead of three:
+The second puzzle is the same, but we need to organize the packages into four groups instead of three:
 
 {% gist 8dcf2717dc87535a7bfa139666749a1a %}
 
