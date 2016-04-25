@@ -7,7 +7,7 @@ categories: advent-of-code
 disqus_identifier: advent-of-code-day017
 ---
 # First puzzle 
-This puzzle looks like a classic optimization problem. We have a set of buckets and we need to find all the combinations where we could fit a volume of 150 liters. The solution is how many combination exists. On the example from the puzzle description, we have the following buckets: 20, 15, 10, 5 and 5 and we need to fit 25 liters. The combinations are:
+This puzzle looks like a classic optimization problem. We have a set of buckets, and we need to find all the combinations where we could fit a volume of 150 liters. The solution is how many combination exists. On the example from the puzzle description, we have the following buckets: 20, 15, 10, 5 and 5 and we need to fit 25 liters. The combinations are:
 
 - 15 and 10.
 - 20 and 5 (first 5)

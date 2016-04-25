@@ -8,10 +8,10 @@ disqus_identifier: advent-of-code-day02
 ---
 # First puzzle 
 
-This time, we need to calculate the wrapping paper needed to wrap a list gifts. The gifts are boxes, and the paper will wrap all the boxes perfectly. In addition to the box area, an extra piece of paper the size of the smaller side is needed as well. The following are the examples given in the puzzle description:
+This time, we need to calculate the wrapping paper to wrap a list gifts. The gifts are boxes, and the paper will wrap all the boxes entirely. In addition to the box area, an extra piece of paper the size of the smaller side is needed as well. The following are the examples given in the puzzle description:
 
-- Length: 2, width: 3 and height: 4, the area is 52 and the smaller side is 6 leading to a total paper need of 58.
-- Length: 1, width:2, height: 10, the area is 41 and the smaller side is 1 leading to a total paper need of 43.
+- Length: 2, Width: 3 and Height: 4, the area is 52, and the smaller side is 6 leading to a total paper need of 58.
+- Length: 1, Width:2, Height: 10, the area is 41, and the smaller side is 1 leading to a total paper need of 43.
 
 Our input is a string with the gift's length(l), width(w) and height(h) separated by "x". For example, 10x20x30\n30x20x10 for two boxes.
 

@@ -29,7 +29,7 @@ Once the instructions are defined as function, the only thing left is to execute
 {% gist 3fd35d232070e308cbec306a394149bb %}
 
 # Second puzzle
-The second puzzle only change the initial value of register a to 1. We still need to find the value of register b after the execution finished:
+The second puzzle only changes the initial value of register a to 1. We still need to find the value of register b after the execution finished:
 
 {% gist d056ef8e7eb8a3643e80eac45f30f73d %}
 

@@ -7,7 +7,7 @@ categories: advent-of-code
 disqus_identifier: advent-of-code-day03
 ---
 # First puzzle 
-This time, we are helping Santa to deliver presents. The instruction to Santa could be represented as a string of characters. Each character represents a direction to move:
+This time, we are helping Santa to deliver presents. The instruction to Santa is string of characters. Each character is a direction to move:
 
 - "^" => North
 - "v" => South
@@ -28,9 +28,9 @@ To calculate the visited houses, we can fold on the moves accumulating every hou
 
 # Second puzzle
 
-For the second puzzle, we have two people delivering the gifts. They have the same instructions, but they take turns to follow them. Ex. the first person gets instruction index 1 and the second person index 2. The question continues to be how many houses receive at least one present. 
+For the second puzzle, we have two people delivering the gifts. They have the same instructions, but they take turns to follow them. Ex. The first person gets instruction index 1 and the second person index 2. The question continues to be how many houses receive at least one present. 
 
-Basically, we need to find the moves for each person, calculate their visited houses, concatenate the two collections and find the distinct houses. The size of that collection will be the puzzle answer:
+We need to find the moves for each person, calculate their visited houses, concatenate the two collections and find the distinct houses. The size of that collection will be the puzzle answer:
 
 {% gist 78bf7be9b46701c5608c %}
 

@@ -7,11 +7,11 @@ categories: advent-of-code
 disqus_identifier: advent-of-code-day18
 ---
 # First puzzle 
-This puzzle is an implementation of Conway's Game of Life but with lights. Our puzzle input is a 100 x 100 light grid where the # means on and . means off. We need to "animate" the lights. That means we need to calculate the next light state based on the previous state using the following rules:
+This puzzle is an implementation of Conway's Game of Life but with lights. Our puzzle input is a 100 x 100 light grid where the # means on and "." means off. We need to "animate" the lights. That means we need to calculate the next light state based on the previous state using the following rules:
 
 - A light stays on if 2 or 3 neighbors are on. It turns off otherwise.
-- A light off turns on if 3 neighbors are on. It continues off otherwise. 
-- In order to model the corners light that has fewer neighbors, we could consider the 100 x 100 lights surrounded by off lights. For example, for the lights at the top-left corner, position (0,0), to turn on, the lights at (1,0), (0,1) and (1,1) must be on.
+- A light off turns on if three neighbors are on. It continues off otherwise. 
+- To model the corners light that has fewer neighbors, we could consider the 100 x 100 lights surrounded by off lights. For example, for the lights at the top-left corner, position (0,0), to turn on, the lights at (1,0), (0,1) and (1,1) must be on.
 
 The puzzle solution is to find how many lights are on after 100 iterations.
 

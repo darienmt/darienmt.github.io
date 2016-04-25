@@ -9,7 +9,7 @@ disqus_identifier: advent-of-code-day13
 # First puzzle 
 We are asked to organize a table to maximize happiness on this puzzle. It is a round table and the gain/lose happiness is your input data. For example, if Alice is sitting next to Bob the table will gain 54 happiness units, but if Alice is sitting next to Carol, 79 happiness units will be lost. The solution to the puzzle is to find the maximum possible happiness unit.
 
-First, we need to convert the string representing the gain/lost of happiness for people into a data type we could work with:
+First, we need to convert the string representing the gain/loss of happiness for people into a data type we could work with:
 
 {% gist 053e1e1116722e5cf94f15033abbd30f %}
 

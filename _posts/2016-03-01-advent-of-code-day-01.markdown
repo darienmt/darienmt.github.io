@@ -21,12 +21,12 @@ My first thought was to map each parenthesis to 1 and -1 and then sum them up. H
 
 # Second puzzle
 
-This time, we need to find the first character on the input making the Santa go to the basement. That means going negative. There are some examples of the description informing us that the position starts at 1, not at zero like the first index of the input character array:
+This time, we need to find the first character on the input making the Santa go to the basement. That means going negative. There are some examples of the description informing us that the position starts at 1, not at zero as the first index of the input character array:
 
 - ")" => position 1
 - "()())" => position 5
 
-This a bit different. The sum is not so interesting as the accumulation. We need to calculate the floor after each step, find the index of the first -1 and add one to map the string index to the position. Here is the code:
+This a bit different. The sum is not attractive as the accumulation. We need to calculate the floor after each step, find the index of the first -1 and add one to map the string index to the position. Here is the code:
 
 {% gist 4057093d702d161b208d %}
 

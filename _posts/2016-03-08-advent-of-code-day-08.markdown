@@ -7,7 +7,7 @@ categories: advent-of-code
 disqus_identifier: advent-of-code-day08
 ---
 # First puzzle 
-This puzzle asks for the difference in length between a string and a string "scaped". As the author said, it is common to scape strings, but usually, we don't think of how long the strings we scape grow.
+This puzzle asks for the difference in length between a string and a string "escaped." As the author said, it is common to escape strings, but usually, we don't think of how long the strings we escaped grew.
 
 The input is a set of double-quoted strings separated. The character to scape are: 
 
@@ -24,7 +24,7 @@ Here are some examples:
 
 The solution is the sum of all the character in code minus the sum of all the character in the string for the puzzle output.
 
-The solution could be to eliminate the first and last quote, and substitute the scaped characters representation with a single arbitrary character. The resulting string will be the string characters. Subtracting it length from the original string will give us the difference we want on on string, and then we need to sum all the differences to find the solution:
+The solution could be to eliminate the first and last quote, and substitute the escaped characters representation with a single arbitrary character. The resulting string will be the string characters. Subtracting its length from the original string will give us the difference we want on string, and then we need to sum all the differences to find the solution:
 
 {% gist 76f4394140994b2f979d %}
 
@@ -38,7 +38,7 @@ The second part of the puzzle is to encode each string again to scape the alread
 
 The solution, this time, is the sum of all the encoded strings length minus the sum of all the original strings length (I called it "encoded" and not "scaped" here to have a different name from the first puzzle solution.) 
 
-In order to find that different, we could do a flatMap over the original strings "encoding" each character to a List of characters and then finding its length in a very similar way as it was done on the first puzzle:
+To find that different, we could do a flatMap over the original strings "encoding" each character to a List of characters and then finding its length in a very similar way as it was done on the first puzzle:
 
 {% gist cd26d75165fda0c73a46 %}
 

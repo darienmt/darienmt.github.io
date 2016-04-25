@@ -17,7 +17,7 @@ In this puzzle, we need to convert a string of digits to the string of digits co
 
 Now things are clearer. The solution to the puzzle is the length of the final string after 40 iterations of this process on the puzzle input. 
 
-I have to say the code I wrote with Scala was so slow I am ashamed to show it. It gave me the right answer, but... it took 4 hours!!!! In order to pass to the next puzzle I wrote it in Javascript, and it gave me result in less than 5 seconds:
+I have to say the code I wrote with Scala was so slow I am ashamed to show it. It gave me the right answer, but... it took 4 hours!!!! To pass to the next puzzle I wrote it in Javascript, and it gave me result in less than 5 seconds:
 
 {% gist 1a9a67ff9cfb20fe0d661c13dcb4e74b %}
 

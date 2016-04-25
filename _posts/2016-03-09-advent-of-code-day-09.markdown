@@ -21,7 +21,7 @@ It is important to consider the following route restrictions:
 - The route can start and end on any two locations.
 - Each location must be visited only once.
 
-The input is a string were route length from one location to another location is defined as LOCATION1 to LOCATION2 = LENGTH. All these small routes (edges) are separated with "\\n". It is convenient to parse this string into a case class Path we could use later on:
+The input is a string were route length from one location to another location is defined as LOCATION1 to LOCATION2 = LENGTH. All these little routes (edges) are separated with "\\n". It is convenient to parse this string into a case class Path we could use later on:
 
 {% gist f651e0083f15b5970c49 %}
 

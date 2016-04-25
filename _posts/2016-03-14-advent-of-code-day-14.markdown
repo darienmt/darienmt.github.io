@@ -12,14 +12,14 @@ In this puzzle, we have a reindeer competition. The reindeer that flies the long
 - Reindeer1 => Speed: 14 km/s, Fly-time: 10 seconds, Rest-time: 127 seconds.
 - Reindeer2 => Speed: 16 km/s, Fly-time: 11 seconds, Rest-time: 162 seconds.
 
-In a 1000 second competition, Reindeer1 flew 1120 km and Reindeer2 flew 1056 km. In this case, Reindeer1 wins.
+In a 1000 second competition, Reindeer1 flew 1120 km, and Reindeer2 flew 1056 km. In this case, Reindeer1 wins.
 The solution to the puzzle is the distance the winning reindeer could fly on a 2503 seconds competition.
 
 First, we need to parse the puzzle input or the reindeer "definition":
 
 {% gist f943fc8c08e5a5e93825108bb93e95d2 %}
 
-A solution could be to fold a colletion of seconds from 1 to competitions seconds on the state of every reindeer. On each one-second iteration, we need to calculate the state of each reindeer. A reindeer could be flying or resting. In addition to that, we need to track how long it was in that state and the flying distance. At the end of the fold, we could just find the maximum distance and that will be our solution:
+A solution could be to fold a collection of seconds from 1 to competitions seconds on the state of every reindeer. On each one-second iteration, we need to calculate the state of each reindeer. A reindeer could be flying or resting. In addition to that, we need to track how long it was in that state and the flying distance. At the end of the fold, we could just find the maximum distance, and that will be our solution:
 
 {% gist 1efeba1cb30787961cd8a4d3236188e8 %}
 

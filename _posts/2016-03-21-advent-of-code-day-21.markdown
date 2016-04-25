@@ -7,7 +7,7 @@ categories: advent-of-code
 disqus_identifier: advent-of-code-day21
 ---
 # First puzzle 
-I am not a gamer, but for this puzzle, we have to play and win an RPC game final battle. In this game, you and the "Boss" you are trying to take turns attacking each other. Each attack decreases the amount of hit point  the player has. The first player reaching 0 or fewer hit points loss. 
+I am not a gamer, but for this puzzle, we have to play and win an RPC game final battle. In this game, you and the "Boss" you are trying to take turns attacking each other. Each attack decreases the amount of hit point the player has. The first player who reach 0 or fewer hit points loss. 
 
 The damage an attack cost is equal to the attacker damage score minus the defender's armor score. The attacker always causes one hit point damage even when the defender's armor score is bigger or equal than the attacker's damage score. 
 On the game, you have zero damage score, zero armor score, 100 hit points, and... all the gold you want to buy items on the local shop to stop having zero scores on anything. The items on the local shop are the following:
@@ -39,7 +39,7 @@ On the game, you have zero damage score, zero armor score, 100 hit points, and..
 |Defense +2|   40|     0|    2|
 |Defense +3|   80|     0|    3|
 
-The rules for buying on the local shop are:
+The rules for buying at the local shop are:
 - You can buy only one weapon.
 - Armor is optional, but you can't buy more than one.
 - You can buy no rings or buy up to two.
@@ -56,13 +56,13 @@ Here comes a fight example from the puzzle's description. You have 8 hit points,
 
 You win! 
 
-After this long descriptions, you are almost lost and wondering what is the puzzle about. We need to find the minimum amount of gold we need to spend to win the fight. The Boss hit points, damage and armor score are the puzzle input.
+After this long descriptions, you are almost lost and wondering what the puzzle is. We need to find the minimum amount of gold we need to spend to win the fight. The Boss hit points, damage and armor score are the puzzle input.
 
 First, we need to create some data structures to represent the Player and an item it can buy from the local shop:
 
 {% gist 3a24720eb22a9ffd13f22e1ca8b97f9f %}
 
-The possible combinations the Player have to buy at the local shop are not too many. In order to find the minimum gold needed to win, we could calculate all the possible combinations of items to buy at the local shop, and calculate the results for each one of them storing the result in a collection along with the cost of the items. Once we have that, we need to filter the fights the Player won and find the minimum cost:
+The possible combinations the Player have to buy at the local shop are not too many. To find the minimum gold needed to win, we could calculate all the possible combinations of items to buy at the local shop, and calculate the results for each one of them storing the result in a collection along with the cost of the items. Once we have that, we need to filter the fights the Player won and found the minimum cost:
 
 {% gist 1e911fe67f72c6fb623ea25839d834fb %}
 

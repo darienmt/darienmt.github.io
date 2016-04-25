@@ -21,7 +21,7 @@ The following molecules could be generated:
 - HOOH (via H => OH on the second H).
 - HHHH (via O => HH).
 
-The solution to the puzzle is to find how many distinct molecules could be generated with the possible replacements and initial molecule we receive as the puzzle input. In the above example from the puzzle description, the solution is 4 distinct molecules.
+The solution to the puzzle is to find how many distinct molecules could be generated with the possible replacements and first molecule we receive as the puzzle input. In the above example from the puzzle description, the solution is four distinct molecules.
 
 The only part of the input we need to parse are the replacements:
 
@@ -38,7 +38,7 @@ The second puzzle is a bit different. Starting from the element "e", we need to 
 - O => HH ==> HH
 - H => OH (on the second H) ==> HOH
 
-This will be 3 steps. For the molecule HOHOHO, 6 steps are required. 
+The molecule will be three steps. For the molecule HOHOHO, six steps are required. 
 
 Ok, let start trying to generate the molecule! A few days pass with a few hours dedicated to solving this. No luck and a lot of frustration. The molecule is huge and starting from "e" there were a lot of transformations. I needed help, and Google is always your friend. I found 
 [Yan Cui's description](http://theburningmonk.com/2015/12/advent-of-code-f-day-19/) pointing to the solution published by [askalski](https://www.reddit.com/r/adventofcode/comments/3xflz8/day_19_solutions/cy4etju) on the Advent of Code subreddit. Even with the solution description, it took a while to get an implementation. Please, read the solution on those links. So far, this was the more complex problem I found on Advent of Code. Here is the implementation:

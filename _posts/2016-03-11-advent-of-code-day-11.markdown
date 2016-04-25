@@ -7,7 +7,7 @@ categories: advent-of-code
 disqus_identifier: advent-of-code-day11
 ---
 # First puzzle 
-This puzzle will deal with the generation of a "password." The password is a string of characters from "a" to "z." In order to get a new password, you need to add 1 to the least significant character of the old password. This addition will increase the letter "value" based on its alphabet position. For example:
+This puzzle will deal with the generation of a "password." The password is a string of characters from "a" to "z." To get a new password, you need to add 1 to the least significant character of the old password. This addition will increase the letter "value" based on its alphabet position. For example:
 
 - Old password: "xx" + 1 => New password: "xy"
 - Old password: "xz" + 1 => New password: "ya"
