@@ -31,3 +31,20 @@ In the future, my idea is to write the solutions with other languages (Ex. [Cloj
         {% endif %}
     {% endfor %}
 </ul>
+
+It is time to help the Santa again, but I didn't have time this year to learn a new language; so, I will stay with the classics and implement the puzzles with Scala again.
+
+# 2016 Puzzle solutions
+
+<ul class="list-posts">
+    {% for post in site.posts reversed %}
+        {% if post.categories contains 'advent-of-code-2016' %}
+            <li class="post-teaser">
+                <a href="{{ post.url | prepend: site.baseurl }}">
+                    <span class="post-teaser__title">{{ post.title }}</span> - {{ post.subtitle }}
+                    <span class="post-teaser__date">{{ post.date | date: "%d %B %Y" }}</span>
+                </a>
+            </li>
+        {% endif %}
+    {% endfor %}
+</ul>
