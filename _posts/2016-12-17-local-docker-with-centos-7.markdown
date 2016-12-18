@@ -7,7 +7,7 @@ categories: docker
 tags: docker, centos
 disqus_identifier: local-docker-with-centOS-7
 ---
-We all like computers, and sometimes we have computers at home we don't use. A good way to reuse those machines is to install Docker on them and use it to run some personal project we might have. The instructions to set it up are available on the Internet, but they are on different URLs, and it is complicated to go back and forward to get the right script to run or the correct command to execute. In this blog, I will describe how I was able to reuse one of this not-so-used machines as a Docker host. I will try to summarize here the following:
+We all like computers, and sometimes we have computers at home we don't use. A good way to reuse those machines is to install Docker on them and use it to run some personal project we might have. The instructions to set it up are available on the Internet, but they are on different URLs, and it is complicated to go back and forward to get the right script to run or the correct command to execute. In this blog, I will describe how I was able to reuse one of these not-so-used machines as a Docker host. I will try to summarize here the following:
 
 - Procedure to install Docker in CentOS.
 - Configure Docker daemon to enable Docker Remote API to access it from outside in an insecure but easy way.
