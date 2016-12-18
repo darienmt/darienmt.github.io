@@ -38,7 +38,7 @@ With Docker installed and Docker daemon running, we are ready to test that is wo
 Great! We have Docker installed and running, but we cannot access it from our local station yet. 
 
 # Configuring Docker daemon
-By default, Docker daemon listen on [unix:///var/run/docker.sock](https://docs.docker.com/engine/reference/api/docker_remote_api/), we need to configure it to listen to a TCP port we can access outside the server. We need to follow the instruction on another page: <https://docs.docker.com/engine/admin/#configuring-docker-1>
+By default, Docker daemon listen on [unix:///var/run/docker.sock](https://docs.docker.com/engine/reference/api/docker_remote_api/), we need to configure it to listen on a TCP port we can access outside the server. We need to follow the instruction on another page: <https://docs.docker.com/engine/admin/#configuring-docker-1>
 
 Here is the command summary:
 
@@ -54,7 +54,7 @@ Now, we need to restart the daemon:
 
 (If there is any error, it is possible to see them in details with journalctl -u docker | tail -100)
 
-What we did here is certainly no good for any other place than our local network at home. There is no security in place. Basically, on the network will have root access to our server, but it is just to play with whales at home, right? On other environments, we need to secure this as recommended [here](https://docs.docker.com/engine/admin/#configuring-docker-1)
+What we did here is certainly no good for any other place than our local network at home. There is no security in place. Everybody on the network will have root access to our server, but it is just to play with whales at home, right? On other environments, we need to secure this as recommended [here](https://docs.docker.com/engine/admin/#configuring-docker-1)
 
 So far, if we try to access Docker Remote APIs, we could not do it because the local firewall is not allowing connections to the port 2376 where we configured Docker to listen. We need another page to do that: <http://ask.xmodulo.com/open-port-firewall-centos-rhel.html>
 Here is the command summary:
@@ -69,7 +69,7 @@ Finally, everything is set! On our local station, we need to tell the docker cli
 
 You should see CentOS Linux 7 operating system as part of the "docker info" output.
 
-It was a long journey to get here, but you could convert a not-too-used machine to a docker host, and start deploying any personal projects you could have there. 
+It was a long journey to get here, but I could convert a not-too-used machine to a docker host, and start deploying to it. I hope this will be useful to somebody in the same situation.
 
 Enjoy!
 
