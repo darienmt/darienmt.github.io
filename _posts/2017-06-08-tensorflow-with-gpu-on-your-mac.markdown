@@ -37,10 +37,10 @@ There are options to install the driver when you install the [CUDA Toolkit 8.0](
 ![CUDA driver](/images/2017-06-08/cuda_driver.png)
 
 # Install CUDA Toolkit 8.0
-You can find the installation steps for Max OS X [here](http://docs.nvidia.com/cuda/cuda-installation-guide-mac-os-x). There are some system requirements:
+You can find the installation steps for Mac OS X [here](http://docs.nvidia.com/cuda/cuda-installation-guide-mac-os-x). There are some system requirements:
 
 - a CUDA-capable GPU(you make sure you have it in the previous sections.)
-- Max OS X 10.11 or later (In my case, I have v10.12.5)
+- Mac OS X 10.11 or later (In my case, I have v10.12.5)
 - the Clang compiler and toolchain installed using Xcode.
 - the NVIDIA CUDA Toolkit.
 
@@ -85,7 +85,7 @@ And the following error happens!!!
 After google-ing it, this is an issue described [here](https://github.com/arrayfire/arrayfire/issues/1384). Following the steps suggested by mlloreda, downgrading to CLT 8.2 should work:
 
 - Log in to https://developer.apple.com/downloads/ (the version here is always the latest, we want a previous version)
-- Go here https://developer.apple.com/download/more/ and find "Command Line Tools (maxOS 10.12) for Xcode 8.2)
+- Go here https://developer.apple.com/download/more/ and find "Command Line Tools (macOS 10.12) for Xcode 8.2)
 - Install CLT
 - Run sudo xcode-select --switch /Library/Developer/CommandLineTools
 - Verify that clang has been downgraded via clang --version
