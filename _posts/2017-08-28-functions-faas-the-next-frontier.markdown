@@ -31,9 +31,9 @@ We had seven live presentations. Here are few comments on each of them:
 
 - [Building serverless applications with Apache OpenWhisk](https://www.youtube.com/watch?v=1SQ5KUQEZVA) by [Daniel Krook](https://www.linkedin.com/in/krook/). [IBM Bluemix](https://www.ibm.com/cloud-computing/bluemix/) is a cloud provider some people would oversee, but in this presentation, it is evident they are moving fast in the cloud arena. [Apache OpenWhisk](https://openwhisk.incubator.apache.org/) is an interesting open source FaaS cloud platform where the event driven approach is your programming model.
 
-- [Serverless Peanut Butter and Jelly - GCP and Firebase](https://www.youtube.com/watch?v=vM8M0ikfXRY) by [Sandeep Dinesh](https://www.linkedin.com/in/dineshsandeep/). Even when [Google's Cloud Fuctions](https://cloud.google.com/functions/) is still in beta, this could be a beta as Gmail was in beta for years but working without problems. It was an excellent presentation on how that platform is working right now in combination with other parts of Google Cloud. In this case: [Firebase](https://firebase.google.com/) and [Data Lost Prevention API](https://cloud.google.com/dlp/).
+- [Serverless Peanut Butter and Jelly - GCP and Firebase](https://www.youtube.com/watch?v=vM8M0ikfXRY) by [Sandeep Dinesh](https://www.linkedin.com/in/dineshsandeep/). Even when [Google's Cloud Functions](https://cloud.google.com/functions/) is still in beta, this could be a beta as Gmail was in beta for years but working without problems. It was an excellent presentation on how that platform is working right now in combination with other parts of Google Cloud. In this case: [Firebase](https://firebase.google.com/) and [Data Lost Prevention API](https://cloud.google.com/dlp/).
 
-I enjoy this conference. It was very well organized and I appreciate the time and effort dedicated to it by its organizers:
+I enjoyed this conference. It was very well organized and I appreciate the time and effort dedicated to it by its organizers:
 
 - [Tech Masters](https://techmasters.chat/)
 - [Full Stack Toronto Meetup](https://www.meetup.com/full-stack-to/)
