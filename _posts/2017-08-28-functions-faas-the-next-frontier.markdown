@@ -10,7 +10,7 @@ disqus_identifier: functions-faas-the-next-frontier
 
 It was a sunny morning last Friday in Toronto. Instead of enjoying the sun doing some outdoor activities I choose to join a group of people to talk about functions as a service at the Functions17 event:
 
-![Functions17 event](/images/2017-08-28/functions17_logo.png)
+![Functions17 event](/images/2017-08-28/logo.png)
 
 Back in 2014, I noticed a new offering from AWS: [AWS Lambda](https://aws.amazon.com/lambda/) At the time, I was playing with [Docker](https://www.docker.com/). The idea of not having a VM but just the important parts I need to run my application was very appealing to me, but what if I didn't need to have even a container. In the end, what I need is something to run my code in response to an event that could be an HTTP request or something else like a message on a queue. This code will have some side effects for sure; so, we are not talking about "pure" functions here. We are talking about on how to organize your application with enough flexibility to scale at a function level.
 The time went by, and this serverless/function-as-a-service[FaaS] space start growing. I had the pleasure to learn more about how things are moving in the direction of having less infrastructure. This is a fundamental concept and a bit of misunderstanding regarding Function-as-a-Service. It is not serverless. The servers will continue to be there, but we are going to use another level of abstraction on top of them.
