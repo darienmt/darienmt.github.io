@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Udacity's Self-Driving Car Nanodegree - Term 2"
-subtitle: "Sensor fusion, Localization, Control, and C++."
-date:   2017-05-30 20:21:10
+subtitle: "Sensors, Localization, Control, and C++."
+date:   2017-08-30 20:21:10
 categories: self-driving-cars
 tags: self-driving cars, Kalman filter, extended Kalman filter, unscented Kalman filter, localization, Markov localization, particle filter, PID, model prediction control
 disqus_identifier: self-driving-car-nanodegree-term-2
@@ -12,7 +12,7 @@ The second term of [Udacity's Self-Driving Car Nanodegree](https://www.udacity.c
 
 I have met a few people with opinions about C++ regarding it as an old and difficult language. For me, the biggest win of this term was my rediscovering of C++ and how much it has evolved since I use it 20 years ago for the first time. At that time, I use C++ only to speed up my [Matlab](https://www.mathworks.com/products/matlab.html) computation on a Pentium machine, and some [MFC](https://en.wikipedia.org/wiki/Microsoft_Foundation_Class_Library) projects later on. It was not a great experience, and it was not by accident I found myself moving away from those project and jumping into other languages like Java, C# and more recently Scala and Python. When I started this term, there was a voice deep inside my mind saying: the nightmare is back. And here it comes, C++ is the new red! Its evolution over these years is incredible. While [C++11](https://en.wikipedia.org/wiki/C%2B%2B11) introduced significant features, its evolution continued with [C++17](https://en.wikipedia.org/wiki/C%2B%2B17) and so on. Each standard is adding new ideas. Here is a nice article regarding C++17 [features](https://www.oreilly.com/ideas/c++17-upgrades-you-should-be-using-in-your-code). Is [type inference](https://en.wikipedia.org/wiki/Type_inference) a dream in some language (Ex. Java)? Not in C++11. There, it is a reality.
 
-![C++](/images/2017-08-30/cpp_logo.png)
+![C++](/images/2017-08-30/cpp_logo_small.png)
 
 # Lessons and projects
 
