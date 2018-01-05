@@ -3,10 +3,10 @@ layout: post
 title:  "Advent of Code: Day 2"
 subtitle: "I Was Told There Would Be No Math"
 date:   2016-03-02 20:21:10
-categories: advent-of-code
+categories: advent-of-code scala
 disqus_identifier: advent-of-code-day02
 ---
-# First puzzle 
+# First puzzle
 
 This time, we need to calculate the wrapping paper to wrap a list gifts. The gifts are boxes, and the paper will wrap all the boxes entirely. In addition to the box area, an extra piece of paper the size of the smaller side is needed as well. The following are the examples given in the puzzle description:
 

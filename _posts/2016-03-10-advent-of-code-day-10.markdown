@@ -3,10 +3,10 @@ layout: post
 title:  "Advent of Code: Day 10"
 subtitle: "Elves Look, Elves Say"
 date:   2016-03-10 20:21:10
-categories: advent-of-code
+categories: advent-of-code scala
 disqus_identifier: advent-of-code-day10
 ---
-# First puzzle 
+# First puzzle
 In this puzzle, we need to convert a string of digits to the string of digits counting how many consecutive numbers appears. Yes, it is confusing if you read it that way, but things are going to get more understandable after seeing some examples:
 
 - "211" => one two, two ones => "1221"
@@ -15,7 +15,7 @@ In this puzzle, we need to convert a string of digits to the string of digits co
 - "1211" => one one, one two, two one => "111221"
 - "111221" => three one, two two, one one => "312211"
 
-Now things are clearer. The solution to the puzzle is the length of the final string after 40 iterations of this process on the puzzle input. 
+Now things are clearer. The solution to the puzzle is the length of the final string after 40 iterations of this process on the puzzle input.
 
 I have to say the code I wrote with Scala was so slow I am ashamed to show it. It gave me the right answer, but... it took 4 hours!!!! To pass to the next puzzle I wrote it in Javascript, and it gave me result in less than 5 seconds:
 

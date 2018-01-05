@@ -3,10 +3,10 @@ layout: post
 title:  "Advent of Code: Day 9"
 subtitle: "All in a Single Night"
 date:   2016-03-09 20:21:10
-categories: advent-of-code
+categories: advent-of-code scala
 disqus_identifier: advent-of-code-day09
 ---
-# First puzzle 
+# First puzzle
 This puzzle is classic. We need to find the shortest route to "visit" a set of locations. The example locations are as follow:
 
 - London to Dublin = 464

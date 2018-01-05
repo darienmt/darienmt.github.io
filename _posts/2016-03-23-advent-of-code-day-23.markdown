@@ -3,10 +3,10 @@ layout: post
 title:  "Advent of Code: Day 23"
 subtitle: "Opening the Turing Lock"
 date:   2016-03-23 20:21:10
-categories: advent-of-code
+categories: advent-of-code scala
 disqus_identifier: advent-of-code-day23
 ---
-# First puzzle 
+# First puzzle
 Here we go to execute assembly code! In this puzzle, we received a set of assembly-like instructions, and we need to find the value on one of the machine registers after the instructions are executed. This particular "machine" has two registers (a and b) and six instruction:
 
 - hlf r => Set register r to half of its current value and continue to the next instruction.

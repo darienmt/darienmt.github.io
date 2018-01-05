@@ -3,10 +3,10 @@ layout: post
 title:  "Advent of Code: Day 24"
 subtitle: "It Hangs in the Balance"
 date:   2016-03-24 20:21:10
-categories: advent-of-code
+categories: advent-of-code scala
 disqus_identifier: advent-of-code-day24
 ---
-# First puzzle 
+# First puzzle
 In this puzzle, we are going to organize a set of packages into three groups. The only important characteristic of the package is its weight, and the set of weights is the puzzle input. The organization of the packages needs to follow these rules:
 
 - Each group should weight the same.

@@ -3,10 +3,10 @@ layout: post
 title:  "Advent of Code: Day 19"
 subtitle: "Medicine for Rudolph"
 date:   2016-03-19 20:21:10
-categories: advent-of-code
+categories: advent-of-code scala
 disqus_identifier: advent-of-code-day19
 ---
-# First puzzle 
+# First puzzle
 We are in chemistry class! This puzzle is all about molecule generation. We receive a molecule and possible element replacements we could use to generate another molecule. For example, with the molecule "HOH", and the following replacements:
 
 - H => HO
@@ -38,9 +38,9 @@ The second puzzle is a bit different. Starting from the element "e", we need to 
 - O => HH ==> HH
 - H => OH (on the second H) ==> HOH
 
-The molecule will be three steps. For the molecule HOHOHO, six steps are required. 
+The molecule will be three steps. For the molecule HOHOHO, six steps are required.
 
-Ok, let start trying to generate the molecule! A few days pass with a few hours dedicated to solving this. No luck and a lot of frustration. The molecule is huge and starting from "e" there were a lot of transformations. I needed help, and Google is always your friend. I found 
+Ok, let start trying to generate the molecule! A few days pass with a few hours dedicated to solving this. No luck and a lot of frustration. The molecule is huge and starting from "e" there were a lot of transformations. I needed help, and Google is always your friend. I found
 [Yan Cui's description](http://theburningmonk.com/2015/12/advent-of-code-f-day-19/) pointing to the solution published by [askalski](https://www.reddit.com/r/adventofcode/comments/3xflz8/day_19_solutions/cy4etju) on the Advent of Code subreddit. Even with the solution description, it took a while to get an implementation. Please, read the solution on those links. So far, this was the more complex problem I found on Advent of Code. Here is the implementation:
 
 {% gist 094de8104eb44dd6164479af95b4557c %}

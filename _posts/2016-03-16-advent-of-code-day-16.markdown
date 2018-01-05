@@ -3,10 +3,10 @@ layout: post
 title:  "Advent of Code: Day 16"
 subtitle: "Aunt Sue"
 date:   2016-03-16 20:21:10
-categories: advent-of-code
+categories: advent-of-code scala
 disqus_identifier: advent-of-code-day16
 ---
-# First puzzle 
+# First puzzle
 
 In this puzzle, we need to find the person (called Aunt Sue) who send a package. From a package that person sent before, we can infer the following six characteristics: children, cats, goldfish, trees, cars, perfumes, Samoyeds, Pomeranians, Akitas and Vizslas. Those characteristics are represented as integers. The puzzle input is a set of 500 people and some characteristics of each of them. For example, the first person we know: children:2 but for the second person, we know only: cats:0 and goldfish:2. The puzzle solution is to find the index of the person who sends the previous package.
 

@@ -3,10 +3,10 @@ layout: post
 title:  "Advent of Code: Day 15"
 subtitle: "Science for Hungry People"
 date:   2016-03-15 20:21:10
-categories: advent-of-code
+categories: advent-of-code scala
 disqus_identifier: advent-of-code-day15
 ---
-# First puzzle 
+# First puzzle
 We are going to be a cookie chef on this puzzle. We have a set of ingredients as the puzzle input. Each ingredient has the five properties per ingredient spoon represented as integers: capacity, durability, flavor, texture, calories. All cookies need to be made of exactly 100 spoons. The cookie's "quality" or score is the ingredient properties sum and then multiplied with the exception of the calories that is not used. If any property is negative, it becomes zero giving the total score of zero. The example from the puzzle description makes us understand the formula better.
 
 Two ingredients:

@@ -3,10 +3,10 @@ layout: post
 title:  "Advent of Code: Day 11"
 subtitle: "Corporate Policy"
 date:   2016-03-11 20:21:10
-categories: advent-of-code
+categories: advent-of-code scala
 disqus_identifier: advent-of-code-day11
 ---
-# First puzzle 
+# First puzzle
 This puzzle will deal with the generation of a "password." The password is a string of characters from "a" to "z." To get a new password, you need to add 1 to the least significant character of the old password. This addition will increase the letter "value" based on its alphabet position. For example:
 
 - Old password: "xx" + 1 => New password: "xy"

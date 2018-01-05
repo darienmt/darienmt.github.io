@@ -3,13 +3,13 @@ layout: post
 title:  "Advent of Code: Day 8"
 subtitle: "Matchsticks"
 date:   2016-03-08 20:21:10
-categories: advent-of-code
+categories: advent-of-code scala
 disqus_identifier: advent-of-code-day08
 ---
-# First puzzle 
+# First puzzle
 This puzzle asks for the difference in length between a string and a string "escaped." As the author said, it is common to escape strings, but usually, we don't think of how long the strings we escaped grew.
 
-The input is a set of double-quoted strings separated. The character to scape are: 
+The input is a set of double-quoted strings separated. The character to scape are:
 
 - "\\\\" => "\\"
 - "\\"" => """
@@ -36,7 +36,7 @@ The second part of the puzzle is to encode each string again to scape the alread
 - "aaa\\"aaa" => "\\"aaa\\\\\\aaa\\"" => Characters in code: 10, Characters encoded: 10
 - "\x27" => "\\"\\\\x27\\"" => Characters in code 6, Characters encoded: 11
 
-The solution, this time, is the sum of all the encoded strings length minus the sum of all the original strings length (I called it "encoded" and not "scaped" here to have a different name from the first puzzle solution.) 
+The solution, this time, is the sum of all the encoded strings length minus the sum of all the original strings length (I called it "encoded" and not "scaped" here to have a different name from the first puzzle solution.)
 
 To find that different, we could do a flatMap over the original strings "encoding" each character to a List of characters and then finding its length in a very similar way as it was done on the first puzzle:
 

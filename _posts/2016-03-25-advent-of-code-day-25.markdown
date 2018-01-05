@@ -3,10 +3,10 @@ layout: post
 title:  "Advent of Code: Day 25"
 subtitle: "Let It Snow"
 date:   2016-03-25 20:21:10
-categories: advent-of-code
+categories: advent-of-code scala
 disqus_identifier: advent-of-code-day25
 ---
-# First puzzle 
+# First puzzle
 The last puzzle at last! It's been a journey to get there, but we had tons of fun. In this puzzle, we are going to calculate a number based on the following algorithms. The number is a identified with a column and a row because it was written on an infinite table on an infinite sheet of paper. To generate the numbers, we received the value at the beginning of the table (0,0) as part of the input. The next generated number and its coordinates can are calculated as follows:
 
 - Next Number: This is the remainder of dividing Previous Number * 252533  by 33554393. These numbers are provided in the puzzle description.

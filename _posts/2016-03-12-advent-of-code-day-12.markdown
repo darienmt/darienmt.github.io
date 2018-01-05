@@ -3,10 +3,10 @@ layout: post
 title:  "Advent of Code: Day 12"
 subtitle: "JSAbacusFramework.io"
 date:   2016-03-12 20:21:10
-categories: advent-of-code
+categories: advent-of-code scala
 disqus_identifier: advent-of-code-day12
 ---
-# First puzzle 
+# First puzzle
 In this puzzle, we received as input a string representing a JSON document. The solution is to sum all the numbers on the input. A way to implement this is match all the numbers with a regular expression and then sum them:
 
 {% gist 114f115a157e958d8311f08e29d71123 %}

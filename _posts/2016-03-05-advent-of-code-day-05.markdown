@@ -3,10 +3,10 @@ layout: post
 title:  "Advent of Code: Day 5"
 subtitle: "Doesn't He Have Intern-Elves For This?"
 date:   2016-03-05 20:21:10
-categories: advent-of-code
+categories: advent-of-code scala
 disqus_identifier: advent-of-code-day05
 ---
-# First puzzle 
+# First puzzle
 In this puzzle, we need to count how many words in the input has the following properties:
 
 - Contains, at least, three vowels.
@@ -14,7 +14,7 @@ In this puzzle, we need to count how many words in the input has the following p
 - Does not contain the strings "ab", "cd", "pq" or "xy."
 
 Some examples are shown in the puzzle description:
- 
+
 - "ugknbfddgicrmopn" match all properties.
 - "aaa" match all properties.
 - "jchzalrnumimnmhp" doesn't have double letters.

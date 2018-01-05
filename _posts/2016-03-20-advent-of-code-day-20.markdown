@@ -3,17 +3,17 @@ layout: post
 title:  "Advent of Code: Day 20"
 subtitle: "Infinite Elves and Infinite Houses"
 date:   2016-03-20 20:21:10
-categories: advent-of-code
+categories: advent-of-code scala
 disqus_identifier: advent-of-code-day20
 ---
-# First puzzle 
+# First puzzle
 This puzzle is about delivering packages. We need to deliver a certain amount of packages to an infinite houses numbers sequentially starting at 1. We also have infinite mail carriers. Each mail carrier is assigned a set of houses based on its number. Based on the puzzle description:
 
 - Postman 1 delivers to houses => 1, 2, 3, 4, ...
 - Postman 2 delivers to houses => 2, 4, 6, 8, 10, ...
 - Postman 3 delivers to houses => 3, 6, 9, 12, 15, ...
 
-On each delivery, the mail carrier delivers 10-times-his-number packages. For example, Postman 3 delivers 30 packages to each house he visits while Postman 2 delivers 20 packages each time. 
+On each delivery, the mail carrier delivers 10-times-his-number packages. For example, Postman 3 delivers 30 packages to each house he visits while Postman 2 delivers 20 packages each time.
 
 The overall packages delivered to the first 4 houses are as follow:
 

@@ -3,13 +3,13 @@ layout: post
 title:  "Advent of Code: Day 21"
 subtitle: "RPG Simulator 20XX"
 date:   2016-03-21 20:21:10
-categories: advent-of-code
+categories: advent-of-code scala
 disqus_identifier: advent-of-code-day21
 ---
-# First puzzle 
-I am not a gamer, but for this puzzle, we have to play and win an RPC game final battle. In this game, you and the "Boss" you are trying to take turns attacking each other. Each attack decreases the amount of hit point the player has. The first player who reach 0 or fewer hit points loss. 
+# First puzzle
+I am not a gamer, but for this puzzle, we have to play and win an RPC game final battle. In this game, you and the "Boss" you are trying to take turns attacking each other. Each attack decreases the amount of hit point the player has. The first player who reach 0 or fewer hit points loss.
 
-The damage an attack cost is equal to the attacker damage score minus the defender's armor score. The attacker always causes one hit point damage even when the defender's armor score is bigger or equal than the attacker's damage score. 
+The damage an attack cost is equal to the attacker damage score minus the defender's armor score. The attacker always causes one hit point damage even when the defender's armor score is bigger or equal than the attacker's damage score.
 On the game, you have zero damage score, zero armor score, 100 hit points, and... all the gold you want to buy items on the local shop to stop having zero scores on anything. The items on the local shop are the following:
 
 
@@ -54,7 +54,7 @@ Here comes a fight example from the puzzle's description. You have 8 hit points,
 - Boss attack: 7-5 = 2 damage; You hit points: 2.
 - You attack: 5-2 = 3 damage; Boss hit points: 0.
 
-You win! 
+You win!
 
 After this long descriptions, you are almost lost and wondering what the puzzle is. We need to find the minimum amount of gold we need to spend to win the fight. The Boss hit points, damage and armor score are the puzzle input.
 

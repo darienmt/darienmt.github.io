@@ -3,10 +3,10 @@ layout: post
 title:  "Advent of Code: Day 14"
 subtitle: "Reindeer Olympics"
 date:   2016-03-14 20:21:10
-categories: advent-of-code
+categories: advent-of-code scala
 disqus_identifier: advent-of-code-day14
 ---
-# First puzzle 
+# First puzzle
 In this puzzle, we have a reindeer competition. The reindeer that flies the longest distance in the competition time wins. A reindeer can fly for x amount of time and after that, it needs to rest for y amount of time. The example in the puzzle description is as follows:
 
 - Reindeer1 => Speed: 14 km/s, Fly-time: 10 seconds, Rest-time: 127 seconds.

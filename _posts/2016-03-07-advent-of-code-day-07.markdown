@@ -3,11 +3,11 @@ layout: post
 title:  "Advent of Code: Day 7"
 subtitle: "Some Assembly Required"
 date:   2016-03-07 20:21:10
-categories: advent-of-code
+categories: advent-of-code scala
 disqus_identifier: advent-of-code-day07
 ---
-# First puzzle 
-As an electronic engineer, this puzzle is fascinating to me. A digital circuit needs to be simulated, and the puzzle solution is the value of one of the wires after everything is connected. This type of problems is very common while you are learning digital electronics. I encounter this again after so long, and the fact is that I have never tried to write code to do this. There was some software for simulating this or you need to do it yourself on a test. 
+# First puzzle
+As an electronic engineer, this puzzle is fascinating to me. A digital circuit needs to be simulated, and the puzzle solution is the value of one of the wires after everything is connected. This type of problems is very common while you are learning digital electronics. I encounter this again after so long, and the fact is that I have never tried to write code to do this. There was some software for simulating this or you need to do it yourself on a test.
 The puzzle input is the description of the circuit to be simulated. The circuit is described as a set of wires and gates connecting those wires. The values on the wires are represented as a 16-bit value. Here are the gates definitions:
 
 - Value gate: This is just an assignment of a value to a gate. It is represented as VALUE -> GATE. Ex. 123 -> x

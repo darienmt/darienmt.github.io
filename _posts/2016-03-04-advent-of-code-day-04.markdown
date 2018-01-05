@@ -3,10 +3,10 @@ layout: post
 title:  "Advent of Code: Day 4"
 subtitle: "The Ideal Stocking Stuffer"
 date:   2016-03-04 20:21:10
-categories: advent-of-code
+categories: advent-of-code scala
 disqus_identifier: advent-of-code-day04
 ---
-# First puzzle 
+# First puzzle
 Here the puzzle is to find a number that will generate an MD5 hash with five zeroes if added to a "secret key." The "secret key" is the puzzle input. The examples are shown in the description are:
 
 - Key: abcdf, Number: 609043. The MD5 hash: 000001dbbfa...

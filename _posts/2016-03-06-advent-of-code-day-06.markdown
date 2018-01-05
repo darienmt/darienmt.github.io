@@ -3,10 +3,10 @@ layout: post
 title:  "Advent of Code: Day 6"
 subtitle: "Probably a Fire Hazard"
 date:   2016-03-06 20:21:10
-categories: advent-of-code
+categories: advent-of-code scala
 disqus_identifier: advent-of-code-day06
 ---
-# First puzzle 
+# First puzzle
 In this puzzle, we are going to receive instructions on how to turn on/off lights our 1000x1000 light grid. The question we need to solve is how many lights are on after all the instructions are executed.
 
 Lights are numbered from 0 to 999. The instructions on the input are as follows:
