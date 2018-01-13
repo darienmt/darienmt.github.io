@@ -59,7 +59,7 @@ This project consists of creating the documentation for the functional safety of
 
 The documents I created could be found [here](https://github.com/darienmt/CarND-Functional-Safety-P3)
 
-## Robot Operating System (ROS)]
+## Robot Operating System (ROS)
 
 In this section, David Silver provides an overview of the autonomous vehicle architecture, and the last part of the term is an excellent introduction to [Robot Operating System (ROS)](http://www.ros.org/). It covers its command line interface, packages, catkin, and different types of nodes and service provided by ROS. Even when the installation is not explained, a virtual machine disk image is provided, and all the examples are hands-on. You will create some nodes async and sync interactions to be prepared to the final projects.
 
@@ -69,13 +69,13 @@ In this section, David Silver provides an overview of the autonomous vehicle arc
 
 Let's drive! This project consists of creating the set of nodes needed to control a self-driving car. The nodes are implemented in Python, but C++ is available as well. The modules are:
 
-- **Waypoint updater**: It receives the current position and produces a set of waypoints the car have to follow informing the velocity needed at each waypoint. Some waypoints need to have zero speed due to a red light, and this module should suggest the "stop trajectory." The module receives all the possible waypoints one time at the beginning of the execution, and the waypoint where it needs to stop.
+- *Waypoint updater*: It receives the current position and produces a set of waypoints the car have to follow informing the velocity needed at each waypoint. Some waypoints need to have zero speed due to a red light, and this module should suggest the "stop trajectory." The module receives all the possible waypoints one time at the beginning of the execution, and the waypoint where it needs to stop.
 
 - *Drive-by-Wire (DBW)*: It is responsible for sending throttle, breaks and steering messages to the DBW logic to control the car. It is suggested to use a [PID](https://en.wikipedia.org/wiki/PID_controller) to execute the control and a [low-pass filter](https://en.wikipedia.org/wiki/Low-pass_filter) to smooth the control actions.
 
-- *Traffic Light Detection*: This module receives the image from the camera and needs to detect the traffic sign shown to inform the *Waypoint updater* module where to stop the car.
+- *Traffic Light Detection*: This module receives the image from the camera and needs to detect the traffic sign shown to inform the *Waypoint updater* node where to stop the car.
 
-Neither to say this project is tough. It is done on a team of up to five students. Each team has a team leader, and the project is sent to Udacity by him. It is not just that you are working with ROS, there are a few places where things could be wrong, and at least I got lost and frustrated multiple times. The solution was to go back and try with smaller steps. My part was to work on the *DBW* and *Waypoint updater* modules. It was an opportunity to work on the control part that I think I won't see too much after I finish the nanodegree. It was hard, but we got the project submitted, and it drove Carla, Udacity's test self-driving car. Take a look at the following picture to see Carla in motion:
+Neither to say this project is tough. It is done on a team of up to five students. Each team has a team leader, and the project is sent to Udacity by him. It is not just that you are working with ROS, there are a few places where things could be wrong, and at least I got lost and frustrated multiple times. The solution was to go back and try with smaller steps. My part was to work on the *DBW* and *Waypoint updater* nodes. It was an opportunity to work on the control part that I think I won't see too much after I finish the nanodegree. It was hard, but we got the project submitted, and it drove Carla, Udacity's test self-driving car. Take a look at the following picture to see Carla in motion:
 
 ![Driving Carla](/images/2018-01-08/carla_driving.gif)
 
