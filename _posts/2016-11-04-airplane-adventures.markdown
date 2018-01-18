@@ -41,6 +41,6 @@ Here are some pictures:
 
 With this setup, I was able to receive the transmission from airplanes 150 miles away.
 
-#Third Iteration - The Beginning
+# Third Iteration - The Beginning
 More time pass, my old Raspberry Pi dies due to the "extreme" heat in the summer and the lack of ventilation on the box. I bought another one, this time a Rasberry Pi 3, and continue to receive airplanes positions. 
 Reading more forums, and be able to see only the airplanes when they are over my area, I started searching for ways to use the information provided by the feeder and do other analysis or presentation on that data ([feeder diagram](http://flightaware.com/adsb/piaware/about).) There are a few data streams we could use to do that, but that is another post, this one is too long already. 
