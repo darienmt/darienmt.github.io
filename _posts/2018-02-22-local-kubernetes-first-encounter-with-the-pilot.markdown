@@ -88,6 +88,7 @@ We need to install four pods to have the TICK stack running: Influxdb, Telegraf,
 We have the charts on the repo we just clone, but we need some adjustment to them first:
 
 - On the file stable/kapacitor/values.yaml, find the line starting with influxURL and uncomment it.
+
 ```
 -# influxURL: http://influxdb-influxdb.tick:8086
 +influxURL: http://data-influxdb.tick:8086
