@@ -93,6 +93,7 @@ We have the charts on the repo we just clone, but we need some adjustment to the
 +influxURL: http://data-influxdb.tick:8086
 ```
 - On the file stable/telegraf/values.yaml, do the following modification:
+
 ```
 -        urls: []
 -          # - "http://data-influxdb.tick:8086"
