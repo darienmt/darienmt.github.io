@@ -2,7 +2,7 @@
 layout: post
 title:  "Local Kubernetes"
 subtitle: "First encounter with the pilot"
-date:   2018-02-22 20:21:10
+date:   2018-02-22 00:00:10
 categories: kubernetes
 tags: docker, kubernetes, k8s, tick, minikube, homebrew
 disqus_identifier: local-kubernetes
