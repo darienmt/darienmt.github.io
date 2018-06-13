@@ -20,7 +20,7 @@ The term could be separated into four parts:
 - **Introduction**: Introduction to autonomous flight, physical components of flying vehicles, event-driving architecture, the first project(Backyard flyer) and integration example with real drones. Yes, this is a good part!
 - **Path planning**: Path planning introduction and beyond: from A* on a grid to a real-world 3D planning.
 - **Control**: Vehicle dynamics, control architecture(cascade PID controller) and full 3D control.  
-- **Estimation and sensor fusion**: Introduction to estimation, sensors(GPS, IMU, etc.) and extended/unscented Kalman filter.
+- **Sensor fusion and estimation**: Introduction to estimation, sensors(GPS, IMU, etc.) and extended/unscented Kalman filter.
 
 Let's get into them!
 
@@ -49,11 +49,15 @@ Here are some sample trajectories using a grid:
 
 ![Path planning grid sample trajectories](/images/2018-06-09/grid_trajectories.png)
 
+Different A* implementations and pruning have different performance characteristics:
+
+![Search analysis](/images/2018-06-09/search_analysis.png)
+
 I didn't have too much time to work on the project, and I could not apply all the concepts explained in the lectures. My [solution](https://github.com/darienmt/FCND-Term1-P2-3D-Motion-Planning) only implements the planning on a grid and a graph. It is just the tip of the iceberg for these techniques. Hopefully, in the future time will "expand" and I could continue from where I left. Here are a couple of trajectories using graphs:
 
 ![Path planning graph sample trajectories](/images/2018-06-09/graph_trajectories.png)
 
-The computational time from a grid to graphs decrease is substantial, but sometimes you can get lost as on the above right figure. Here is a video on the simulator.
+The computational time from a grid to graphs decrease is substantial, but sometimes you can get lost as on the above right figure. The problem is due to the generated graph is not connected. Instead, it consists of multiple subgraphs. Here is a video on the simulator using a trajectory where graphs were used.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IjgJbrl1Esc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
@@ -82,7 +86,7 @@ To see how good and sensitive this was. Take a look at the following video:
 
 The scenario shown is an additional scenario on the simulator where multiple drones fly. The left half of the screen shows the simulator without a tilt angle constraint on the `RollPitchControl`. The right half has this constraint in place. You can see some drones misbehaves in the left half. Notice not all of them go crazy: just a few and the same few on every execution. Fun fun!
 
-## Estimation and sensor fusion
+## Sensor fusion and estimation
 
 So far, we were dealing with perfect measurements. On the control project, we knew exactly the state of the vehicle(position, velocity, pose, etc.). The reality is richer than that. Noise is everywhere. The last part of the program is dedicated bring us closer to the noisy reality we live. There are six lectures and one project here. We meet our third professor, [Stefanie Tellex](http://cs.brown.edu/people/stellex/), each professor join to give us lessons. The lectures start with an introduction to the estimation problem: noise. Then, we go deeper inside sensor([GPS](https://en.wikipedia.org/wiki/Global_Positioning_System), [IMU](https://en.wikipedia.org/wiki/Inertial_measurement_unit) and magnetometers(compass)). Once the models for those sensors are clear, we meet the [Kalman filter](https://en.wikipedia.org/wiki/Kalman_filter) family (Kalman filter, extended Kalman filter, and unscented Kalman filter). There are lectures on GPS denied navigation with more sensor like [optical flow](https://en.wikipedia.org/wiki/Optical_flow) and other estimators like [Particle filter](https://en.wikipedia.org/wiki/Particle_filter). This section is one of my favors. Estimation amazed me since I saw it for the first time on the Self-driving car nano degree.
 
