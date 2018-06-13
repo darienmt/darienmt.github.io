@@ -4,3 +4,5 @@
   name: Self-Driving cars
 - slug: faas
   name: Function-as-a-Service
+- slug: autonomous-flight
+  name: Autonomous flight
