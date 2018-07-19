@@ -7,7 +7,7 @@ categories: advent-of-code scala
 disqus_identifier: advent-of-code-day01
 ---
 # First puzzle
-December 2016 is here, and we need to start helping Santa again. We are in a city, and we need to follow directions to get to a point. The directions are in the for of "R|L#". For example, R2 means turn Right and walk two blocks. On the other hand, L10 means turn Left and walk ten blocks. We are walking on the nodes of a mesh, and the solution to the puzzle is the distance from the starting point (0, 0) to and the last node we rich after following all the instructions. As you might think, the instructions are the puzzle's input. The instructions also specified we are facing North, to have a starting direction to do Rights or Lefts.
+December 2016 is here, and we need to start helping Santa again. We are in a city, and we need to follow directions to get to a point. The directions are in the for of "R|L#". For example, R2 means turn Right and walk two blocks. On the other hand, L10 means turn Left and walk ten blocks. We are walking on the nodes of a mesh, and the solution to the puzzle is the distance from the starting point (0, 0) to and the last node we reach after following all the instructions. As you might think, the instructions are the puzzle's input. The instructions also specified we are facing North, to have a starting direction to do Rights or Lefts.
 
 Here is the minimum input parsing:
 
