@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Visting UTIAS - Dynamic Systems Lab"
+title:  "Visiting UTIAS - Dynamic Systems Lab"
 subtitle: "It is happening in Toronto"
 date:   2018-05-17 00:00:10
 categories: self-driving-cars
