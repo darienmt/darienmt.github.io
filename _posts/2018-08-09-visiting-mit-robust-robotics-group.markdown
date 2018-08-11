@@ -10,7 +10,7 @@ disqus_identifier: mit-robust-robotics-group-visit
 
 After enjoying so much our visit to [UTIAS's Dynamic System Lab](/self-driving-cars/2018/05/16/visiting-utias-dynamic-system-lab.html) on May, we start wondering if you could visit another of our professors from Udacity's [Flying Cars and Autonomous Flight](https://www.udacity.com/course/flying-car-nanodegree--nd787). [Luis Yu](https://www.linkedin.com/in/luis-yu-43794b10/), [Xinjie](https://www.linkedin.com/in/xinjieqiu/) and I started to think about how to approach [Nick Roy](https://www.csail.mit.edu/person/nicholas-roy). The opportunity to visit [MIT's CSAIL Robust Robotics Group](http://groups.csail.mit.edu/rrg/index.php?n=Main.HomePage) was too big to let it pass. We asked Udacity's help buy chatting with [Aurina](https://www.linkedin.com/in/aurinalam/) and [Jake Lussier](https://www.linkedin.com/in/jake-lussier-644b06a7/) to reach out to the professor. I emailed him directly as well. Nick accepted our visit! We will be going to Boston!
 
-![MIT CSAIL](/images/2018-08-09/mit-csail.png)
+![MIT CSAIL](/images/2018-08-09/mit-csail.jpg)
 
 Once we have confirmation on the visit date, Udacity help us to announce this on the FCND Slack channel and in this way anybody could go and enjoy this wonderful opportunity. The night before the event, Luis, Xinjie, Fernando Sadu and I met at the [Quincy Market](http://www.quincy-market.com/) to start the celebration:
 
