@@ -23,5 +23,5 @@
 <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
 <meta property="og:site_name" content="{{ site.title }}">
 {% if cover %}
-<meta property="og:image" content="{{ cover }}">
+<meta property="og:image" content="{{ site.url }}{{ cover }}">
 {% endif %}
