@@ -2,7 +2,7 @@
 layout: post
 title:  "Visiting MIT - Robust Robotics Group - CSAIL"
 subtitle: "Meeting Nick Roy in person"
-description: "Incredible visit to Robust Robotics Group at MIT. Great conversation with Prof. Nicholas Roy and a demo of his team reseach."
+description: "An incredible visit to the Robust Robotics Group at MIT, a conversation with Prof. Nicholas Roy and a demo of his team research."
 cover: "/images/2018-08-09/mit-csail.jpg"
 date:   2018-08-09 00:00:10
 categories: autonomous-flight
