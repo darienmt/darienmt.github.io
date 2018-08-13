@@ -16,7 +16,7 @@ After enjoying so much our visit to [UTIAS's Dynamic System Lab](/self-driving-c
 
 Once we have confirmation on the visit date, Udacity help us to announce this on the FCND Slack channel and in this way anybody could go and enjoy this wonderful opportunity. The night before the event, Luis, Xinjie, Fernando Sadu and I met at the [Quincy Market](http://www.quincy-market.com/) to start the celebration:
 
-![Before event](/images/2018-08-09/first-beer.png)
+![Before event](/images/2018-08-09/init-group.png)
 
 After an interesting conversation and a couple of beers, we settled to meet at [The Glass House](https://www.glasshousecambridge.com) the next day to have brunch and walk to see the professor. At that time, [Karthi Jeyabalan](https://www.linkedin.com/in/karthi-jeyabalan-153a4785/) just arrived from Utah:
 
