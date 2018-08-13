@@ -1,17 +1,17 @@
 # Site settings
 title: Code-sparks
 email: darienmt@yahoo.com
-description: > 
-  Technically yet another blog regarding code, technology, all new and old.
+description: Technically yet another blog regarding code, technology, all new and old.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://darienmt.com" # the base hostname & protocol for your site
 
 author:
-  fullname: Darien Martinez
+  fullname: Darien Martinez Torres
+  linkedin: https://ca.linkedin.com/in/darien
   github: darienmt
-  # twitter: 
+  # twitter:
   disqus: darienmtcom
-
+ 
 google_analytics: 'UA-72221351-1'
 
 # Build settings
