@@ -56,7 +56,7 @@ Here is a video of just the drone trajectory:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/shtdokxodTg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-After this demo, we saw a video regarding some more aggressive trajectories on a rented parking garage, but sadly none of use has a video about that to share. Here is a picture where you can see the parking garage:
+After this demo, we saw a video regarding some more aggressive trajectories on a rented parking garage, but sadly none of us has a video about that to share. Here is a picture where you can see the parking garage:
 
 ![Parking garage](/images/2018-08-09/drone-parking-garage.png)
 
