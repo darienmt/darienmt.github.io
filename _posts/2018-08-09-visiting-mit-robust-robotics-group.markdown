@@ -3,7 +3,7 @@ layout: post
 title:  "Visiting MIT - Robust Robotics Group - CSAIL"
 subtitle: "Meeting Nick Roy in person"
 description: "An incredible visit to the Robust Robotics Group at MIT, a conversation with Prof. Nicholas Roy and a demo of his team research."
-cover: "/images/2018-08-09/mit-csail.jpg"
+cover: "/images/2018-08-09/firehose.jpg"
 date:   2018-08-09 00:00:10
 categories: autonomous-flight
 tags: udacity mit csail robust-robotics-group drones motion-planning flying-car-nanodegree laser-range-finder monocle-navigation ai
