@@ -10,7 +10,9 @@ tags: software developer, scala, nodejs
 
 I try to explore new horizons and new ways of thinking as much as possible. Usually, simplicity and agility to change are the two qualities I like to foster most of my work as the only true immutable is "change." My formal education is in Telecommunication engineering, and I have a master's degree in digital signal/image processing. I learned to do software by doing and reading a lot: the longest journey starts with a single step.
 
-After all these years, I learned to fight complexity. I try to find the tools to solve my problem: I am not bending the tools I know to solve a problem they are not fit to solve. Yesterday, it was .Net. Today, it is Java, Node.js, Scala, and Python. Tomorrow... I do not have all the answers, but I am looking forward to finding the answer to your problem.
+Yesterday, it was .Net, Java, C++, and Python. Tomorrow... I do not have all the answers, but I am looking forward to helping you to find the solution to your problem. 
+
+After all these years, I learned to fight complexity. I try to find the tools to solve my problem: I am not bending the tools I know to solve a problem they are not fit to address. 
 
 If I looked at my solution six months ago, and I think it is perfect: I have a problem. The only immutable principle is the continuous evolution: business needs and technology change every day.
 
