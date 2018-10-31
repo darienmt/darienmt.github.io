@@ -1,2 +1,2 @@
 # darienmt.github.io
-This is my personal blog.... [darienmt.com](http://darienmt.com)
+This is my personal blog.... [darienmt.com](https://darienmt.com)
