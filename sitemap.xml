@@ -53,4 +53,12 @@ sitemap:
     </url>
     {% endunless %}
   {% endfor %}
+  {% for project in site.data.projects %}
+    <url>
+      <loc>{{ site.url }}{{ project.url }}</loc>
+      <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  {% endfor %}
 </urlset>
