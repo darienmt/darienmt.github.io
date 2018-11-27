@@ -177,4 +177,6 @@ Now you have a project set with a node commanding the drone to hover. There are 
 - **Everything is launched with a single command**: Let's work to do on every star/stop of the scenario you are testing.
 - **This is just starting** ;-)
 
+All this setup could be found [here](https://github.com/darienmt/px4-sitl-ros-example).
+
 Happy droning!
