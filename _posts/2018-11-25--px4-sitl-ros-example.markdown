@@ -20,7 +20,7 @@ Let's suppose you create a git repo, and you are at the root of that repo. The f
 Assuming you don't want to change the firmware, it could be good to set it up outside your `src/` because it is not your source in that case. [Git submodules](https://blog.github.com/2016-02-01-working-with-submodules/) is here for the rescue. You can add the firmware a module:
 
 ```
-submodule add git@github.com:PX4/Firmware.git px4-firmware
+git submodule add git@github.com:PX4/Firmware.git px4-firmware
 ```
 
 Even when you don't want to deal with it, you do need to compile it.
