@@ -29,7 +29,7 @@ Even when you don't want to deal with it, you do need to compile it.
 cd px4-firmware
 make px4_sitl_default gazebo
 ```
-**Node**: `posix_sitl_default` was deprecated.
+**Note**: `posix_sitl_default` was deprecated.
 
 Close gazebo. If you run into any missing libraries or problems, there is extensive documentation on [Installing Files and Code](https://dev.px4.io/en/setup/dev_env.html). You can also visit [another post in this blog for a tutorial on how to do it](/autonomous-flight/2018/11/18/installing-px4-sitl-gazebo.html).
 
