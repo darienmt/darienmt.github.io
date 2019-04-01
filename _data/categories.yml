@@ -6,3 +6,5 @@
   name: Function-as-a-Service
 - slug: autonomous-flight
   name: Autonomous flight
+- slug: kubernetes
+  name: Kubernetes
