@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Looking at flying aircrafts"
+title:  "Looking at flying aircraft"
 subtitle: "See your ADS-B data from anywhere in near-real-time"
 description: "Collect and send the ADS-B data from your receiver to GCP and visualize it with the same web application you have on the receiver but using Firebase"
-cover: "/images/2019-05-15/cover.jpg"
+cover: "/images/2019-05-15/cover.png"
 date:   2019-05-15 00:00:00
 categories: kubernetes
 tags: kubernetes serverless gcp firebase dump1090 FlightAware cloud-functions 
