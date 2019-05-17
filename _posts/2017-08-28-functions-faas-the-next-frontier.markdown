@@ -3,8 +3,8 @@ layout: post
 title:  "Functions - FaaS"
 subtitle: "The next frontier is close"
 date:   2017-08-28 00:21:10
-categories: faas
-tags: faas, functions, AWS lambda, io-pipe,
+categories: serverless
+tags: faas, functions, AWS lambda, io-pipe, serverless
 disqus_identifier: functions-faas-the-next-frontier
 ---
 

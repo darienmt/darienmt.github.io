@@ -2,8 +2,8 @@
   name: Scala
 - slug: self-driving-cars
   name: Self-Driving cars
-- slug: faas
-  name: Function-as-a-Service
+- slug: serverless
+  name: Serverless
 - slug: autonomous-flight
   name: Autonomous flight
 - slug: kubernetes
