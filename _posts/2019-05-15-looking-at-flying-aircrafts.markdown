@@ -274,6 +274,6 @@ Let's recap on the what is going on here:
 
 It was a fantastic project. I enjoyed it. I am looking forward to figuring out what else can I do with that data. I think a video showing all the aircraft trajectories in a day could be an exciting next step.
 
-If you are interested in, see the application working, send me an email, and I will create an account for you.
+If you are interested in, see the application working, contact me, and I will create an account for you.
 
 Happy coding!

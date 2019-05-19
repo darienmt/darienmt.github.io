@@ -6,11 +6,13 @@ subtitle: Random lines of thoughs with or without code
 
 <ul class="list-posts">
     {% for post in site.posts %}
+        {% unless post.categories contains 'advent-of-code' or post.categories contains 'advent-of-code-2016' %}
         <li class="post-teaser">
             <a href="{{ post.url | prepend: site.baseurl }}">
                 <span class="post-teaser__title">{{ post.title }}</span> - <span class="post-teaser__subtitle">{{ post.subtitle }}</span>
                 <span class="post-teaser__date">{{ post.date | date: "%d %B %Y" }}</span>
             </a>
         </li>
+        {% endunless %}
     {% endfor %}
 </ul>
