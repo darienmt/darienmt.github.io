@@ -12,7 +12,7 @@ The followings are the projects I've been working on Github. I tried to put the 
 
 - [GCP and dump1090 aircraft data collection and visualization](/gcp-ads-b-collector): Experiments with dump1090/FightAware receiver capturing and visualizing airplane traffic.
 
-- [PX4 SITL ROS Examples](/px4-sitl-ros-example): PX4 SITL with ROS and Gazebo examples.
+- [PX4 SITL ROS Examples](https://github.com/darienmt/px4-sitl-ros-example): PX4 SITL with ROS and Gazebo examples.
 
 - [NVIDIA Jetson TX1 OpenCV 101 Tutorials](/nvidia-jetson-opencv-101/): Here you will found the code from the OpenCV 101 tutorials. The tutorials a bit old and there are a couple of things that need to be fixed to be implemented with OpenCV 3.3.1.
 
