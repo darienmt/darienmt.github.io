@@ -1,0 +1,16 @@
+{{ define "main" }}
+  {{ partial "page-title.html" . }}
+  <div class="content">{{ .Content }}</div>
+  <h1>2015 Puzzle solutions</h1>
+  <ul class="list-posts">
+    {{ range (where site.RegularPages "Section" "posts").Reverse }}
+      {{ if in .Params.categories "advent-of-code" }}{{ partial "post-teaser.html" . }}{{ end }}
+    {{ end }}
+  </ul>
+  <h1>2016 Puzzle solutions</h1>
+  <ul class="list-posts">
+    {{ range (where site.RegularPages "Section" "posts").Reverse }}
+      {{ if in .Params.categories "advent-of-code-2016" }}{{ partial "post-teaser.html" . }}{{ end }}
+    {{ end }}
+  </ul>
+{{ end }}

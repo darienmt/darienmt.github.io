@@ -1,0 +1,18 @@
+<header class="header">
+  <div class="navigation">
+    <ul class="menu">
+      <li class="menu__entry"><a href="{{ "/" | relURL }}">Home</a></li>
+      <li class="menu__entry"><a href="{{ "/about/" | relURL }}">About</a></li>
+      <li class="menu__entry"><a href="{{ "/categories/self-driving-cars/" | relURL }}">Self-Driving cars</a></li>
+      <li class="menu__entry"><a href="{{ "/categories/autonomous-flight/" | relURL }}">Autonomous Flight</a></li>
+      <li class="menu__entry"><a href="{{ "/projects" | relURL }}">Projects</a></li>
+    </ul>
+  </div>
+  <ul class="social-links">
+    <a href="{{ site.Params.author.linkedin }}" class="social-links__entry" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i></a>
+    {{ with site.Params.author.github }}<a href="https://github.com/{{ . }}" class="social-links__entry" target="_blank" rel="noopener"><i class="fa fa-github"></i></a>{{ end }}
+    {{ with site.Params.author.twitter }}<a href="https://twitter.com/{{ . }}" class="social-links__entry" target="_blank" rel="noopener"><i class="fa fa-twitter"></i></a>{{ end }}
+    <a href="https://stackoverflow.com/story/darienmt" class="social-links__entry" target="_blank" rel="noopener"><i class="fa fa-stack-overflow"></i></a>
+    <a href="{{ "/feed.xml" | relURL }}" class="social-links__entry"><i class="fa fa-rss"></i></a>
+  </ul>
+</header>

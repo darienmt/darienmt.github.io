@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{{ $title := site.Title }}
+{{ if .Title }}{{ $title = .Title }}{{ with .Params.subtitle }}{{ $title = printf "%s — %s" $title . }}{{ end }}{{ end }}
+<title>{{ $title }}</title>
+{{ $description := site.Params.description }}
+{{ with .Description }}{{ $description = . }}{{ end }}
+<meta name="description" content="{{ $description | plainify | htmlEscape }}">
+{{ with .Params.tags }}<meta name="keywords" content="{{ if reflect.IsSlice . }}{{ delimit . ", " }}{{ else }}{{ . }}{{ end }}">{{ end }}
+{{ $pageURL := .Permalink }}
+<link rel="canonical" href="{{ $pageURL }}">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ $title | htmlEscape }}">
+<meta name="twitter:description" content="{{ $description | plainify | htmlEscape }}">
+{{ with .Params.cover }}<meta name="twitter:image" content="{{ . | absURL }}">{{ end }}
+<meta name="author" content="{{ site.Params.author.name }}">
+<link rel="author" href="{{ site.Params.author.linkedin }}">
+<meta property="og:locale" content="{{ site.Params.lang }}">
+<meta property="og:type" content="{{ if eq .Section "posts" }}article{{ else }}website{{ end }}">
+<meta property="og:title" content="{{ $title | htmlEscape }}">
+<meta property="og:description" content="{{ $description | plainify | htmlEscape }}">
+<meta property="og:url" content="{{ $pageURL }}">
+<meta property="og:site_name" content="{{ site.Title }}">
+{{ with .Params.cover }}<meta property="og:image" content="{{ . | absURL }}">{{ end }}
+{{ partial "styles.html" . }}

@@ -1,0 +1,58 @@
+baseURL = "https://darienmt.com/"
+languageCode = "en-us"
+title = "Code-sparks"
+publishDir = "public"
+enableRobotsTXT = false
+enableGitInfo = false
+disableKinds = ["sitemap"]
+summaryLength = 70
+
+[params.author]
+  name = "Darien Martinez Torres"
+  fullname = "Darien Martinez Torres"
+  email = "darienmt@yahoo.com"
+  linkedin = "https://ca.linkedin.com/in/darien"
+  github = "darienmt"
+  disqus = "darienmtcom"
+
+[params]
+  description = "Technically yet another blog regarding code, technology, all new and old."
+  lang = "en"
+  googleAnalytics = ""
+
+[permalinks]
+  posts = "/:year/:month/:day/:slug/"
+categories = "/categories/:slug/"
+tags = "/tags/:slug/"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[outputs]
+  home = ["HTML", "RSS", "Sitemap"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  term = ["HTML", "RSS"]
+
+[outputFormats.RSS]
+  mediaType = "application/rss+xml"
+  baseName = "feed"
+  isHTML = false
+  isPlainText = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+    style = "solarized-dark"
+
+[sitemap]
+  changeFreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[frontmatter]
+  date = [":filename", ":default"]

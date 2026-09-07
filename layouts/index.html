@@ -1,0 +1,10 @@
+{{ define "main" }}
+  {{ partial "page-title.html" . }}
+  <ul class="list-posts">
+    {{ range where site.RegularPages "Section" "posts" }}
+      {{ if not (or (in .Params.categories "advent-of-code") (in .Params.categories "advent-of-code-2016")) }}
+        {{ partial "post-teaser.html" . }}
+      {{ end }}
+    {{ end }}
+  </ul>
+{{ end }}

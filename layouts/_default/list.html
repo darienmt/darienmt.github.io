@@ -1,0 +1,11 @@
+{{ define "main" }}
+  {{ partial "page-title.html" . }}
+  <ul class="list-posts">
+    {{ range .Pages }}
+      {{ partial "post-teaser.html" . }}
+    {{ else }}
+      <li class="empty-post-list">There are no articles here yet.</li>
+    {{ end }}
+  </ul>
+  {{ partial "explore.html" . }}
+{{ end }}

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.LanguageCode | default "en" }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body{{ if eq .Kind "404" }} class="glitch"{{ end }}>
+  <div class="wrapper">
+    {{ partial "header.html" . }}
+    <main>
+      {{ block "main" . }}{{ end }}
+    </main>
+  </div>
+  {{ partial "scripts.html" . }}
+</body>
+</html>

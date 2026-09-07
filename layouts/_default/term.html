@@ -1,0 +1,9 @@
+{{ define "main" }}
+  {{ partial "category-title.html" . }}
+  <ul class="list-posts">
+    {{ range .Pages }}{{ partial "post-teaser.html" . }}{{ else }}
+      <li class="empty-post-list">It seems that there are no articles on that category, please go back <a href="{{ "/" | relURL }}">home</a> to see the full list of articles.</li>
+    {{ end }}
+  </ul>
+  {{ partial "explore.html" . }}
+{{ end }}

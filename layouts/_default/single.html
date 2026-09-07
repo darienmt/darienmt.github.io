@@ -1,0 +1,13 @@
+{{ define "main" }}
+  {{ partial "page-title.html" . }}
+  <div class="content">
+    {{ .Content }}
+  </div>
+  {{ if and (eq .Section "posts") site.Params.author.disqus }}
+    {{ partial "disqus.html" . }}
+    {{ partial "post-about.html" . }}
+  {{ end }}
+  {{ if ne .Section "posts" }}
+    {{ partial "explore.html" . }}
+  {{ end }}
+{{ end }}
