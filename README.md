@@ -12,5 +12,4 @@ make validate  # build and check the migration URL manifest
 make serve     # run the local Hugo server
 ```
 
-The original Jekyll source remains in place for reference while the migration
-is validated. `migration/url-manifest.txt` records the published URL contract.
+`migration/url-manifest.txt` records the published URL contract.
