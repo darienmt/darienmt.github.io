@@ -8,8 +8,5 @@ The site is built with Hugo Extended. Install the pinned version used by
 
 ```sh
 make build     # build public/ with the live URL structure
-make validate  # build and check the migration URL manifest
 make serve     # run the local Hugo server
 ```
-
-`migration/url-manifest.txt` records the published URL contract.
