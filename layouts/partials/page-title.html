@@ -1,0 +1,4 @@
+<h1 class="page-title">
+  <div class="page-title__text{{ if eq .Section "posts" }} post-title__text{{ end }}">{{ .Title }}</div>
+  {{ with .Params.subtitle }}<div class="page-title__subtitle{{ if eq $.Section "posts" }} post-title__subtitle{{ end }}">{{ . }}</div>{{ end }}
+</h1>

@@ -1,0 +1,6 @@
+{{ define "main" }}
+  {{ partial "page-title.html" . }}
+  <ul class="list-posts">
+    {{ range .Pages }}<li class="post-teaser"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}
+  </ul>
+{{ end }}
